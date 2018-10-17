@@ -1,0 +1,202 @@
+URL http://localhost:8080/csthread/entity/api/v1/mliagent
+
+Request:
+
+{
+  "header": {
+    "soaCorrelationId": "1234567890",
+    "soaMsgVersion": "",
+    "soaAppId": "",
+    "soaUserId": "",
+    "soaPassword": ""
+  },
+  "payload": {
+    "transactions": [
+      {
+        "clientId": "515535",
+        "services": [
+          {
+            "serviceName": "agtAddDtlType",
+            "params": [
+              {
+                "param": "515535"
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              }
+            ]
+          },
+          {
+            "serviceName": "agtBsDtlType",
+            "params": [
+              {
+                "param": "515535"
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              }
+            ]
+          },
+          {
+            "serviceName": "agtContDtlType",
+            "params": [
+              {
+                "param": "515535"
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              }
+            ]
+          },
+          {
+            "serviceName": "agtContrtDtlType",
+            "params": [
+              {
+                "param": "515535"
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              }
+            ]
+          },
+          {
+            "serviceName": "agtMoveDtlType",
+            "params": [
+              {
+                "param": "515535"
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              }
+            ]
+          },
+          {
+            "serviceName": "agtrefDtlType",
+            "params": [
+              {
+                "param": "515535"
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              }
+            ]
+          },
+          {
+            "serviceName": "agtPolDtlType1",
+            "params": [
+              {
+                "param": "515535"
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              }
+            ]
+          },
+          {
+            "serviceName": "agtCommDtlType",
+            "params": [
+              {
+                "param": "515535"
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              }
+            ]
+          },
+          {
+            "serviceName": "agtFinDtlType",
+            "params": [
+              {
+                "param": "515535"
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              },
+              {
+                "param": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

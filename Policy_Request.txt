@@ -1,0 +1,1138 @@
+URL :  http://172.23.49.68:8080/csthread/entity/api/v1/mlipolicy
+
+
+Request: 
+
+{
+  "request":
+{
+  "header": {
+     "soaCorrelationId": "390435519",
+    "soaAppId": ""
+  },
+  "payload": {
+    
+        "clientId": "884244252",
+        "services": [
+          {
+            "serviceName": "policyBasicDetails"
+           
+          },
+          {
+            "serviceName": "coverageDetails"
+            
+          },
+          {
+            "serviceName": "surrenderRetensionDetails"
+           
+          },
+          {
+            "serviceName": "policyClientRelationship"
+            
+          },
+          {
+            "serviceName": "underWriting"
+            
+          },
+          {
+            "serviceName": "policyMesures"
+            
+          },
+          {
+            "serviceName": "bonusDetails"
+            
+          },
+          {
+            "serviceName": "oppbDetails"
+            
+          },
+          {
+            "serviceName": "refundDetails"
+            
+          },
+          {
+            "serviceName": "bounceDetails"
+            
+          },
+          {
+            "serviceName": "reversalDetails"
+           
+          },
+          {
+            "serviceName": "rtfDetails"
+            
+          },
+          {
+            "serviceName": "loanDetail"
+            
+          },
+          {
+            "serviceName": "annuityDetails"
+            
+          },
+          {
+            "serviceName": "requiredPremiumDetails"
+            
+          },
+          {
+            "serviceName": "partWithdrwlDetails"
+            
+          },
+          {
+            "serviceName": "proposalBasicDetails"
+           
+          },
+          {
+            "serviceName": "ecsBasicDetails"
+            
+          },
+          {
+            "serviceName": "policyAgentRelationship"
+            
+          },
+          {
+            "serviceName": "dfaDetails"
+            
+          },
+          {
+            "serviceName": "stpDetails"
+            
+          },
+          {
+            "serviceName": "dividendDetails"
+            
+          },
+          {
+            "serviceName": "paymentHistoryDetails"
+            
+          },
+          {
+            "serviceName": "reqtDtls"
+            
+          },
+          {
+            "serviceName": "insrdCod"
+          },
+          {
+            "serviceName": "lifeInsuredDetails"
+          }
+        ]
+      
+  }
+}
+}
+
+
+Response:
+
+{
+"response": {
+"header": {
+"soaAppId": "",
+"soaCorrelationId": "390435519"
+},
+"msgInfo": {
+"msgCode": "200",
+"msg": "SUCCESS",
+"msgDescription": "surrenderRetensionDetails : Data Not Found !!policyAgentRelationship : Processing failed !!loanDetail : Data Not Found !!oppbDetails : Data Not Found !!proposalBasicDetails : Data Not Found !!"
+},
+"payload": [
+  {
+"policyBasicDetails": [
+  {
+"policyNum": "884244252",
+"policyBasePlanIdCd": "EP2006",
+"policyBasePlanIdDesc": "Max Life Life Gain Plus 20 Yr 6 Pay",
+"policyOwnerId": "5002065948",
+"policyInsuredId": "5002065948",
+"policyPayerId": "5002065948",
+"policyAssigneeId": "",
+"reasonForAssgnmt": "",
+"effDtOfAssgnmt": "",
+"policyTrusteeId": "",
+"policyStatusCd": "1",
+"policyStatusDesc": "Premium paying (regular)",
+"policyPrevStatusCd": "4",
+"policyPrevStatusDesc": "ETI, paid-up endowment, term or annuity",
+"policyIssueDt": "2013-07-06",
+"policyInforceDt": "2013-08-13",
+"billingFreqCd": "12",
+"billingFreqDesc": "Annual",
+"modeFactor": "1",
+"policyBillingTypeCd": "D",
+"policyBillingTypeDesc": "Two-stage autopay",
+"policyxsellFlag": "",
+"policyhhFlag": "",
+"lastPremPmtMethodCd": "ACHQ",
+"lastPremPmtMethodDesc": "AXIS OTC CHEQUE",
+"initialPremMethodCd": "DD",
+"initialPremMethodDesc": "DEMAND DRAFT",
+"lastPremPmtDt": "2018-08-23",
+"polAppRecvDt": "2013-08-08",
+"polAppSignDt": "2013-07-06",
+"initialPremDt": "2013-08-13",
+"policyPmtTerm": "6",
+"policyTerm": "20",
+"policyServicingAgentId": "472486",
+"policyServicingGoCode": "X1816",
+"policyWritingGoCode": "",
+"policyStatusChangeDt": "2018-08-23",
+"polCeasDt": "2033-07-06",
+"policyRejectionReasonCd": "",
+"policyRejectionReasonDesc": "",
+"policyInsuranceTypeCd": "2",
+"policyInsuranceTypeDesc": "Pure Endowment",
+"policyPtToDtNum": "2019-07-06",
+"policyCntlPrPtToDt": "",
+"policyPmtDrwDy": "16",
+"policyDivOptCd": "1",
+"policyDivOptDesc": "Paid in cash",
+"policyDbOptCd": "N",
+"policyDbOptDesc": "Not applicable; default value",
+"policyPremTypeCd": "E",
+"policyPremTypeDesc": "Traditional, contractual premium only (including traditional deferred annuity)",
+"policySector": "",
+"ceip": "N",
+"policyCampnCd": "",
+"policyCampnDesc": "",
+"policyKeyManInd": "N",
+"policyTds10": "N",
+"policyEiaInd": "N",
+"policyCeasRsnCd": "R",
+"policyCeasRsnDesc": "Automatic Cease Reason",
+"policyDiscontineuRsnCd": "",
+"policyDiscontineuRsnDesc": "",
+"policyLapseDt": "",
+"ulLapseRevivalIndicator": "N",
+"polCumUnclrdAmt": "0",
+"freeLookEndDt": "2013-09-07",
+"policySubStatusCd": "",
+"policySubStatusDesc": "",
+"policyDicontinuedDt": "",
+"era": "",
+"newProductFlagging": "",
+"stpDfaIsActiveOrNot": "",
+"indxLevelFlagIndicator": "NO",
+"irdaGuidelineTypeCd": "N/A",
+"irdaGuidelineTypeDesc": "Not Applicable",
+"ntuReasonCd": "",
+"ntuReasonDesc": "",
+"policyHasDeathBenefitGuarantee": "0",
+"comboPolicyId": "",
+"caseStatusCd": "IssueIng",
+"caseStatusDesc": "",
+"serviceProviderName": "AXIS BANK",
+"discontinuanceFund": "",
+"ntuEffDate": "",
+"ctpAmt": "0",
+"polDueDate": "2019-07-06",
+"polLapseDate": "",
+"revivalDueDate": "",
+"isEligibleForLoan": "Y",
+"mwpaFlag": "P",
+"polprimInsrd": "5002065948",
+"polInsPurpCd": "P",
+"polInsPurp": "Personal Reasons",
+"form2Policy": "NO",
+"polRejectionReason": "",
+"employerEmployeePol": "NO",
+"keyManPolicy": "N",
+"tdsExempt": "N",
+"policyAssignedMaxLife": "NO",
+"ownerEarnedIncome": "600000"
+}
+],
+"coverageDetails": [
+  {
+"cvgNum": "01",
+"cvgPlanIdCd": "EP2006",
+"coverageStatusCd": "1",
+"cvgFaceAmt": "790885",
+"cvgDutyAmt": "158.17",
+"coverageModelPrem": "96274.43",
+"cvgBasicFaceAmt": "790885",
+"cvgUwgFrcnCd": "AA",
+"cvgActTypCd": "B",
+"cvgAppRevDt": "2013-08-08",
+"cvgMatXpryDt": "2033-07-06",
+"cvgIssEffDt": "2013-07-06",
+"origPlanIdCd": "EP2006",
+"cvgRateAge": "023",
+"cvgFePremAmt": "0",
+"cvgParCd": "P",
+"cvgStatEffDt": "2018-07-06",
+"premChngAgeDur": "006",
+"premChngeDtCd": "A",
+"ulrcvgYn": "N",
+"ulpcvgYn": "N",
+"riderServTax": "2166.18",
+"noOfCoverage": "2",
+"cvgStatusChangeDt": "2018-07-06",
+"cvgPlanIdDesc": "Max Life Life Gain Plus 20 Yr 6 Pay",
+"coverageStatusDesc": "PREMIUM PAYING",
+"cvgUwgFrcnDesc": "Approved by application entry phase",
+"cvgActTypDesc": "Benefits",
+"origPlanIdDesc": "Max Life Life Gain Plus 20 Yr 6 Pay",
+"riderTerm": "20",
+"stgstTax": "2166.18",
+"riderFlg": "",
+"zeroCovergeFaceAmt": "790885",
+"riderAnnualPremium": "96274.43",
+"cvgUwdcnCd": "AA",
+"loading": "YES"
+},
+  {
+"cvgNum": "02",
+"cvgPlanIdCd": "RPPT06",
+"coverageStatusCd": "1",
+"cvgFaceAmt": "200000",
+"cvgDutyAmt": "40",
+"coverageModelPrem": "652",
+"cvgBasicFaceAmt": "200000",
+"cvgUwgFrcnCd": "AA",
+"cvgActTypCd": "R",
+"cvgAppRevDt": "2013-08-08",
+"cvgMatXpryDt": "2019-07-06",
+"cvgIssEffDt": "2013-07-06",
+"origPlanIdCd": "RPPT06",
+"cvgRateAge": "023",
+"cvgFePremAmt": "0",
+"cvgParCd": "P",
+"cvgStatEffDt": "2018-07-06",
+"premChngAgeDur": "006",
+"premChngeDtCd": "0",
+"ulrcvgYn": "N",
+"ulpcvgYn": "N",
+"riderServTax": "117.36",
+"noOfCoverage": "2",
+"cvgStatusChangeDt": "2018-07-06",
+"cvgPlanIdDesc": "Max Life Term Rider (Par)- Limited pay 06 yrs",
+"coverageStatusDesc": "PREMIUM PAYING",
+"cvgUwgFrcnDesc": "Approved by application entry phase",
+"cvgActTypDesc": "",
+"origPlanIdDesc": "Max Life Term Rider (Par)- Limited pay 06 yrs",
+"riderTerm": "6",
+"stgstTax": "117.36",
+"riderFlg": "",
+"zeroCovergeFaceAmt": "200000",
+"riderAnnualPremium": "652",
+"cvgUwdcnCd": "AA",
+"loading": "YES"
+}
+],
+"loanDetail": [
+  {
+"loanDisbursementDt": null,
+"amtLoanTkn": null,
+"outstLn": null,
+"intrChrCurYr": null,
+"intrDueTillDt": null,
+"lnRepyAmt": null,
+"lnIDCd": null,
+"lnIDDesc": null
+}
+],
+"surrenderRetensionDetails": [
+  {
+"partWidhdwAmAvlbl": null,
+"currentNav": null,
+"currentNavDt": null,
+"inceptionNav": null,
+"allocationCharge": null,
+"illustVal6": null,
+"illustVal10": null,
+"trendVsIllust": null,
+"sensxAtDtOfPolIncept": null,
+"currentSensxDtTime": null,
+"currentSensxVal": null,
+"sensxReturnPrcnt": null,
+"noOfPolWitDnInYr": null,
+"noOfSwtchDnInPolYr": null,
+"noOfRedInPolYr": null,
+"prcntGrowth": null,
+"illustVal8": null,
+"fundId": null,
+"fundName": null,
+"fundVal": null,
+"noOfUnits": null,
+"minimumSwitchingAmount": null
+}
+],
+"policyClientRelationship": [
+  {
+"clientID": "5002065948",
+"roleEfftDt": "",
+"relatnReason": "",
+"relatnType": "Same Person",
+"prcntShareOfNom": "0",
+"prefAddrCode": "PR",
+"relatnCat": "",
+"nomineeCliId": "5002065948"
+}
+],
+"underWriting": [
+  {
+"polNo": "884244252",
+"uwDecision": "",
+"uwFlaggn": "No",
+"uwType": "",
+"tlUwDt": "",
+"postponMarkDt": "",
+"addInfoMarkDt": "",
+"counterOffMarkDt": "",
+"addInfoMarkStatus": "",
+"counterOffMarkStatus": "NO",
+"clientLvlPolRejn": "",
+"clientLPolLoad": "0",
+"category": "",
+"reportDt": "",
+"reportRecv": "",
+"testCompltDt": "",
+"reportUpldDt": "",
+"mediclChrg": "",
+"clearCase": "Yes",
+"isMenCase": "No",
+"mediclComplDt": "",
+"workItem": "Payment Details Received - CAM"
+}
+],
+"policyMesures": [
+  {
+"polNo": "884244252",
+"polAfyp": "96926",
+"polModPrem": "0",
+"polSumAssr": "990885",
+"polGrossPremAmt": "0",
+"polPremSuspAmt": "0.06",
+"polMiscSuspAmt": "0",
+"divSuspAmt": "0",
+"puaLtdFaceAmt": "34120.35",
+"polOsDisbAmt": "0",
+"totTopupRecv": "",
+"polSundryAmt": "0",
+"polSurrndAmt": "0",
+"polTotalBillAmt": "0",
+"ntuAdmnCharge": "",
+"ntuMedCharge": "",
+"ntuMortCharge": "",
+"ntuStmpDutyCharge": "",
+"lpcReinstatementCharge": "0",
+"noOfModPrem": "25",
+"totPremWithoutTop": "581558.58",
+"premAmtRecdTillDate": "589861.08",
+"totPremWithTop": "581558.58",
+"fundValAsonDate": "",
+"lastAmountPaid": "99210",
+"polPremSuspDt": "2018-08-23",
+"polMiscSuspDt": "2018-08-23",
+"polDivSuspDt": "",
+"polOsDisbDt": "2018-08-23",
+"totOppbSumAssured": "",
+"totPuaSumAssured": "34120.35",
+"totOppbAmtPaid": "",
+"loanAmount": "",
+"loanInterestAmount": "",
+"modalPremiuminclusiveGST": "0"
+}
+],
+"bonusDetails": [
+  {
+"bonusNmCd": "D",
+"bonusAmt": "11296.36",
+"bonusStatusCd": "A",
+"bonusDeclDt": "2018-07-06",
+"bonusPuaAvl": "0",
+"totlPuaDecl": "0",
+"totlPuaWithdrw": "0",
+"puaPurchased": "0",
+"bonusNmDesc": "Dividend",
+"bonusStatusDesc": "Active",
+"bonusPaidAmount": "11296.36",
+"puaBonusAmount": "",
+"puaBonusFaceAmount": "",
+"bonusPaymentType": "Declared bonus or dividend"
+},
+  {
+"bonusNmCd": "D",
+"bonusAmt": "11172.6",
+"bonusStatusCd": "A",
+"bonusDeclDt": "2016-07-06",
+"bonusPuaAvl": "19908.77",
+"totlPuaDecl": "19908.77",
+"totlPuaWithdrw": "0",
+"puaPurchased": "19908.77",
+"bonusNmDesc": "Dividend",
+"bonusStatusDesc": "Active",
+"bonusPaidAmount": "",
+"puaBonusAmount": "11172.6",
+"puaBonusFaceAmount": "19908.77",
+"bonusPaymentType": ""
+},
+  {
+"bonusNmCd": "D",
+"bonusAmt": "8247.69",
+"bonusStatusCd": "A",
+"bonusDeclDt": "2017-07-06",
+"bonusPuaAvl": "14211.58",
+"totlPuaDecl": "14211.58",
+"totlPuaWithdrw": "0",
+"puaPurchased": "14211.58",
+"bonusNmDesc": "Dividend",
+"bonusStatusDesc": "Active",
+"bonusPaidAmount": "",
+"puaBonusAmount": "8247.69",
+"puaBonusFaceAmount": "14211.58",
+"bonusPaymentType": ""
+}
+],
+"oppbDetails": [
+  {
+"oppbEffDt": null,
+"oppbEpbPuaAmt": null,
+"oppbRidSt": null,
+"oppbTrncAmt": null,
+"oppbTrncStatusCd": null,
+"oppbTrncTypeCd": null,
+"oppbAmtPayble": null,
+"oppbPrem": null,
+"oppbTrncStatusDesc": null,
+"oppbTrncTypeDesc": null
+}
+],
+"refundDetails": [
+  {
+"refundAmt": "11296.36",
+"refundDt": "2018-07-20",
+"refundStatus": "Outstanding, cheque was printed but has not been reconciled",
+"refundClDt": "",
+"resnForRefund": "Bonus Payout",
+"refundBankNameCd": "304261",
+"refundRtoDt": "",
+"refundRtoReason": "",
+"accNum": "",
+"accType": "Cheque",
+"accHoldName": "UJJWAL VERMA",
+"ownrClientId": "5002065948",
+"refundBankNameDesc": "304261",
+"refundMethodCd": "C",
+"refundMethodDesc": "Cheque",
+"branchName": "BUXAR"
+},
+  {
+"refundAmt": "11296.36",
+"refundDt": "2018-07-06",
+"refundStatus": "Cancel",
+"refundClDt": "",
+"resnForRefund": "Bonus Payout",
+"refundBankNameCd": "AXIS BANK LTD",
+"refundRtoDt": "",
+"refundRtoReason": "",
+"accNum": "912010036996734",
+"accType": "Savings Account",
+"accHoldName": "UJJWAL KUMAR VERMA",
+"ownrClientId": "5002065948",
+"refundBankNameDesc": "AXIS BANK LTD",
+"refundMethodCd": "E",
+"refundMethodDesc": "NEFT",
+"branchName": "BUXAR"
+},
+  {
+"refundAmt": "18.12",
+"refundDt": "2014-11-07",
+"refundStatus": "Active; default value",
+"refundClDt": "2014-11-10",
+"resnForRefund": "Excess Premium",
+"refundBankNameCd": "AXIS BANK LTD",
+"refundRtoDt": "",
+"refundRtoReason": "",
+"accNum": "912010036996734",
+"accType": "Savings Account",
+"accHoldName": "UJJWAL KUMAR VERMA",
+"ownrClientId": "5002065948",
+"refundBankNameDesc": "AXIS BANK LTD",
+"refundMethodCd": "E",
+"refundMethodDesc": "NEFT",
+"branchName": "BUXAR"
+}
+],
+"bounceDetails": [
+  {
+"rtfNum": "AHOM175644",
+"bounceDt": "2016-07-19",
+"instlAmt": "98829.38",
+"bounRecptDt": "",
+"cheqDt": "2016-07-13",
+"statusCd": "5",
+"reason": "Default Bounce Reason",
+"instrumentTypeCd": "UDRCT",
+"instrumentNum": "15974167",
+"instrumentSeqNum": "CLAHOM11604DY995",
+"instrumentLoc": "AHOM1",
+"instrumentBankName": "Sent To AXIS",
+"instrumentBankBranh": "",
+"instrumentDt": "2016-07-16",
+"receivedDt": "2016-07-13",
+"statusDesc": "Active",
+"instrumentTypeDesc": "DIRECT DEBIT UB REFERENCE NO."
+},
+  {
+"rtfNum": "AHOM176058",
+"bounceDt": "2016-08-04",
+"instlAmt": "98829.38",
+"bounRecptDt": "",
+"cheqDt": "2016-07-27",
+"statusCd": "5",
+"reason": "INSUFFICIENT BALANCE",
+"instrumentTypeCd": "UDRCT",
+"instrumentNum": "16085740",
+"instrumentSeqNum": "CLAHOM11604HR226",
+"instrumentLoc": "AHOM1",
+"instrumentBankName": "Sent To AXIS RE-DEBIT",
+"instrumentBankBranh": "",
+"instrumentDt": "2016-08-01",
+"receivedDt": "2016-07-27",
+"statusDesc": "Active",
+"instrumentTypeDesc": "DIRECT DEBIT UB REFERENCE NO."
+},
+  {
+"rtfNum": "AHOM185790",
+"bounceDt": "2017-07-18",
+"instlAmt": "99209.97",
+"bounRecptDt": "",
+"cheqDt": "2017-07-13",
+"statusCd": "5",
+"reason": "Account closed/ Transferred to",
+"instrumentTypeCd": "UDRCT",
+"instrumentNum": "18956473",
+"instrumentSeqNum": "CLAHOM11704FW375",
+"instrumentLoc": "AHOM1",
+"instrumentBankName": "Sent To AXIS",
+"instrumentBankBranh": "",
+"instrumentDt": "2017-07-17",
+"receivedDt": "2017-07-13",
+"statusDesc": "Active",
+"instrumentTypeDesc": "DIRECT DEBIT UB REFERENCE NO."
+},
+  {
+"rtfNum": "AHOM197626",
+"bounceDt": "2018-08-20",
+"instlAmt": "99209.94",
+"bounRecptDt": "",
+"cheqDt": "2018-08-14",
+"statusCd": "5",
+"reason": "Account closed/ Transferred to",
+"instrumentTypeCd": "UDRCT",
+"instrumentNum": "23669787",
+"instrumentSeqNum": "CLAHOM11805GQ976",
+"instrumentLoc": "AHOM1",
+"instrumentBankName": "Sent To AXIS",
+"instrumentBankBranh": "",
+"instrumentDt": "2018-08-16",
+"receivedDt": "2018-08-14",
+"statusDesc": "Active",
+"instrumentTypeDesc": "DIRECT DEBIT UB REFERENCE NO."
+},
+  {
+"rtfNum": "AHOM196678",
+"bounceDt": "2018-07-18",
+"instlAmt": "87913.58",
+"bounRecptDt": "",
+"cheqDt": "2018-07-12",
+"statusCd": "5",
+"reason": "Account closed/ Transferred to",
+"instrumentTypeCd": "UDRCT",
+"instrumentNum": "23292206",
+"instrumentSeqNum": "CLHOMU51804AD818",
+"instrumentLoc": "AHOM1",
+"instrumentBankName": "Sent To AXIS",
+"instrumentBankBranh": "",
+"instrumentDt": "2018-07-16",
+"receivedDt": "2018-07-12",
+"statusDesc": "Active",
+"instrumentTypeDesc": "DIRECT DEBIT UB REFERENCE NO."
+}
+],
+"reversalDetails": [
+  {
+"revrDtl": "Default Bounce Reason",
+"revrTyp": "UDRCT",
+"revrAmt": "98829.38",
+"voucherDt": "2016-07-13",
+"apprvBy": "UMES2D",
+"vourcherAppSysDt": "2016-07-13"
+},
+  {
+"revrDtl": "INSUFFICIENT BALANCE",
+"revrTyp": "UDRCT",
+"revrAmt": "98829.38",
+"voucherDt": "2016-07-27",
+"apprvBy": "UMES2D",
+"vourcherAppSysDt": "2016-07-27"
+},
+  {
+"revrDtl": "Account closed/ Transferred to",
+"revrTyp": "UDRCT",
+"revrAmt": "99209.97",
+"voucherDt": "2017-07-13",
+"apprvBy": "UMES2D",
+"vourcherAppSysDt": "2017-07-13"
+},
+  {
+"revrDtl": "Account closed/ Transferred to",
+"revrTyp": "UDRCT",
+"revrAmt": "99209.94",
+"voucherDt": "2018-08-14",
+"apprvBy": "UMES2D",
+"vourcherAppSysDt": "2018-08-14"
+},
+  {
+"revrDtl": "Account closed/ Transferred to",
+"revrTyp": "UDRCT",
+"revrAmt": "87913.58",
+"voucherDt": "2018-07-12",
+"apprvBy": "UMES2D",
+"vourcherAppSysDt": "2018-07-12"
+}
+],
+"rtfDetails": [
+  {
+"rtfSeqNum": "AHOM185790",
+"rtfAmt": "74527294.1",
+"bankPuDt": "2017-07-17",
+"rtfDt": "2017-07-17",
+"rtfStCd": "15",
+"bnkPopDt": null,
+"rtfStDesc": "Physical Bank Pick Up Done",
+"bankPopDt": "2017-07-17",
+"bank": "Sent To AXIS"
+},
+  {
+"rtfSeqNum": "AHOM197626",
+"rtfAmt": "28615388.01",
+"bankPuDt": "2018-08-16",
+"rtfDt": "2018-08-16",
+"rtfStCd": "15",
+"bnkPopDt": null,
+"rtfStDesc": "Physical Bank Pick Up Done",
+"bankPopDt": "2018-08-16",
+"bank": "Sent To AXIS"
+},
+  {
+"rtfSeqNum": "AOTC102392",
+"rtfAmt": "2360365.83",
+"bankPuDt": "2016-08-22",
+"rtfDt": "2016-08-22",
+"rtfStCd": "15",
+"bnkPopDt": null,
+"rtfStDesc": "Physical Bank Pick Up Done",
+"bankPopDt": "2016-08-22",
+"bank": "AXIS BANK LTD"
+},
+  {
+"rtfSeqNum": "AOTC106137",
+"rtfAmt": "582015",
+"bankPuDt": "2017-07-19",
+"rtfDt": "2017-07-19",
+"rtfStCd": "15",
+"bnkPopDt": null,
+"rtfStDesc": "Physical Bank Pick Up Done",
+"bankPopDt": "2017-07-19",
+"bank": "SYNDICATE BANK"
+},
+  {
+"rtfSeqNum": "X014201912",
+"rtfAmt": "1464215",
+"bankPuDt": "2013-08-10",
+"rtfDt": "2013-08-08",
+"rtfStCd": "15",
+"bnkPopDt": null,
+"rtfStDesc": "Physical Bank Pick Up Done",
+"bankPopDt": "2013-08-10",
+"bank": "AXIS BANK LTD"
+},
+  {
+"rtfSeqNum": "AHOM166278",
+"rtfAmt": "34411535.13",
+"bankPuDt": "2015-07-16",
+"rtfDt": "2015-07-16",
+"rtfStCd": "15",
+"bnkPopDt": null,
+"rtfStDesc": "Physical Bank Pick Up Done",
+"bankPopDt": "2015-07-16",
+"bank": "Sent To AXIS"
+},
+  {
+"rtfSeqNum": "AHOM175644",
+"rtfAmt": "42399409.62",
+"bankPuDt": "2016-07-16",
+"rtfDt": "2016-07-16",
+"rtfStCd": "15",
+"bnkPopDt": null,
+"rtfStDesc": "Physical Bank Pick Up Done",
+"bankPopDt": "2016-07-16",
+"bank": "Sent To AXIS"
+},
+  {
+"rtfSeqNum": "AOTC112287",
+"rtfAmt": "2601759",
+"bankPuDt": "2018-08-23",
+"rtfDt": "2018-08-23",
+"rtfStCd": "15",
+"bnkPopDt": null,
+"rtfStDesc": "Physical Bank Pick Up Done",
+"bankPopDt": "2018-08-23",
+"bank": "AXIS BANK LTD"
+},
+  {
+"rtfSeqNum": "AHOM196678",
+"rtfAmt": "38382134.56",
+"bankPuDt": "2018-07-16",
+"rtfDt": "2018-07-16",
+"rtfStCd": "15",
+"bnkPopDt": null,
+"rtfStDesc": "Physical Bank Pick Up Done",
+"bankPopDt": "2018-07-16",
+"bank": "Sent To AXIS"
+},
+  {
+"rtfSeqNum": "AHOM156443",
+"rtfAmt": "42988297.54",
+"bankPuDt": "2014-07-16",
+"rtfDt": "2014-07-16",
+"rtfStCd": "15",
+"bnkPopDt": null,
+"rtfStDesc": "Physical Bank Pick Up Done",
+"bankPopDt": "2014-07-16",
+"bank": "Sent To AXIS"
+},
+  {
+"rtfSeqNum": "AHOM176058",
+"rtfAmt": "50374716.3",
+"bankPuDt": "2016-07-30",
+"rtfDt": "2016-07-30",
+"rtfStCd": "15",
+"bnkPopDt": null,
+"rtfStDesc": "Physical Bank Pick Up Done",
+"bankPopDt": "2016-08-04",
+"bank": "Sent To AXIS RE-DEBIT"
+}
+],
+"annuityDetails": [
+  {
+"amtofAnnToBePaid": "0",
+"annPayFreqCd": "01",
+"accPayYrToDate": "0",
+"accPayLifeToDate": "0",
+"lastPayDate": "",
+"livingProofCertiRecvd": "",
+"certiUpdateEffDate": "",
+"methodOfPayAnnuitantCd": "",
+"annPayFreqDesc": "Monthly",
+"methodOfPayAnnuitantDesc": "",
+"annPayStartDate": ""
+}
+],
+"partWithdrwlDetails": [
+  {
+"comment": "NO",
+"amount": ""
+}
+],
+"requiredPremiumDetails": [
+  {
+"reqPrem": "-0.06"
+}
+],
+"proposalBasicDetails": [
+  {
+"proposalNumber": null,
+"workitemDesc": null,
+"cmntTxt": null,
+"caseStatusDesc": null,
+"msa": null,
+"fsa": null,
+"sa": null,
+"appRecdDt": null,
+"uwUserId": null,
+"uwName": null,
+"uwDecn": null,
+"modelPremium": null,
+"revisedPremium": null,
+"extraMortalityRate": null,
+"flatExtra": null,
+"flatExtraDuration": null,
+"multExtra": null,
+"coverageDecision": null,
+"polCovTermCat": null,
+"polPptNew": null,
+"polInitialPremPay": null,
+"polRenewalPremPay": null,
+"proposerBankAccPst": null,
+"proposerPanCardPst": null,
+"ownVehicleFlg": null,
+"vehicleTwoWhlrFlg": null,
+"vehicleFourWhlrFlg": null,
+"vehicleTwoWhlrPrice": null,
+"vehicleFourWhlrPrice": null,
+"proposerPayerFlg": null,
+"riderTerm01": null,
+"riderSa01": null,
+"riderPrem01": null,
+"riderServiceTax01": null,
+"recalModPrem01": null,
+"polCovTermCat01": null,
+"riderTerm02": null,
+"riderSa02": null,
+"riderPrem02": null,
+"riderServiceTax02": null,
+"recalModPrem02": null,
+"polCovTermCat02": null,
+"riderTerm03": null,
+"riderSa03": null,
+"riderPrem03": null,
+"riderServiceTax03": null,
+"recalModPrem03": null,
+"polCovTermCat03": null,
+"riderTerm04": null,
+"riderSa04": null,
+"riderPrem04": null,
+"riderServiceTax04": null,
+"recalModPrem04": null,
+"polCovTermCat04": null,
+"riderTerm05": null,
+"riderSa05": null,
+"riderPrem05": null,
+"riderServiceTax05": null,
+"recalModPrem05": null,
+"polCovTermCat05": null,
+"mnylCustClassification": null,
+"goCodes": null,
+"planId": null,
+"plnNm": null,
+"planCode": null,
+"proposerCliId": null,
+"l2BiCliId": null,
+"nomineeClientId": null,
+"polMode": null,
+"polAfyp": null,
+"polSa": null,
+"polAdjAfyp": null,
+"polAdjMfyp": null,
+"polBasePremium": null,
+"medNonmed": null,
+"mnylAgentCd": null,
+"insuredBirthDt": null,
+"age": null,
+"insuredGender": null,
+"insuredMaritalSts": null,
+"insuredEdu": null,
+"insuredIndustry": null,
+"insuredOccupation": null,
+"l2BiRelNom": null,
+"insuredRelNom": null,
+"l2BiMliExactIncome": null,
+"insuredAgeFlg": null,
+"insuredIncomeFlg": null,
+"customerId": null,
+"insuredPepFlg": null,
+"insuredSmokerFlg": null,
+"counterOffer1": null,
+"counterOffer2": null,
+"counterOffer3": null,
+"counterOffer4": null,
+"customerSegment": null
+}
+],
+"ecsBasicDetails": [
+  {
+"serviceProviderName": "AXIS BANK",
+"ecsMandateRejectionReason": ".",
+"isMicrEncoded": "N",
+"ecsBankAccountNumber": "912010036996734",
+"ecsAccountholderName": "UJJWAL KUMAR VERMA",
+"ecsBankMicrCode": "802211002",
+"ecsBankIfscCode": "UTIB0001816",
+"ecsBankName": "AXIS BANK LTD",
+"ecsBankLocation": "BR",
+"ecsMandateRegStatus": "R",
+"ecsMandateRejectionDate": "",
+"ecsMandateRegStatusDesc": "Registered",
+"registrationStatusDate": "2013-09-04"
+}
+],
+"policyAgentRelationship": [
+  {
+"policyId": null,
+"agentId": null
+}
+],
+"dfaDetails": [
+  {
+"dfaApplicable": "No",
+"dfaCurrentlyActive": "No",
+"mode": "Monthly,Quarterly,Semi-annual,Annual",
+"nfoOptionChangeApplicable": "Yes",
+"nfoOptionCurrentlyAvailable": "Reduced paid up",
+"availableNFOOption": "Extended Term Insurance,Reduced paid up",
+"switchingChangeApplicable": "Yes",
+"freeSwitchingAvailable": "No",
+"fundChangeApplicable": "",
+"lastPremiumPayableDate": "2018-07-06"
+}
+],
+"stpDetails": [
+  {
+"stpApplicable": "No",
+"stpCurrentlyActive": "No",
+"hybridPolicyFlag": "01,03,06,12",
+"assignedPolicyFlag": "Monthly,Quarterly,Semi-annual,Annual",
+"planInsuredTypCd": "Reduced paid up",
+"insrdGender": "Extended Term Insurance,Reduced paid up",
+"polSuprsIssInd": "Yes"
+}
+],
+"dividendDetails": [
+  {
+"currentBonusOption": "Paid in cash",
+"bonusOption": "Yes",
+"bonusOptionChange": "Yes",
+"availableBonusOption": "ONE YEAR TERM/PAID UP ADDITIONS,PAID UP ADDITIONS,PREMIUM OFFSET"
+}
+],
+"paymentHistoryDetails": [
+  {
+"paymentMode": "DIRECT DEBIT UB REFERENCE NO.",
+"paymentDate": "2014-07-08",
+"amount": "98494.45",
+"status": "Applied to Policy"
+},
+  {
+"paymentMode": "DIRECT DEBIT UB REFERENCE NO.",
+"paymentDate": "2015-07-08",
+"amount": "98702.51",
+"status": "Applied to Policy"
+},
+  {
+"paymentMode": "AXIS OTC CHEQUE",
+"paymentDate": "2018-08-23",
+"amount": "99210",
+"status": "Applied to Policy"
+},
+  {
+"paymentMode": "AXIS OTC CHEQUE",
+"paymentDate": "2016-08-22",
+"amount": "98829.38",
+"status": "Applied to Policy"
+},
+  {
+"paymentMode": "DEMAND DRAFT",
+"paymentDate": "2013-08-08",
+"amount": "100000",
+"status": "Applied to Policy"
+},
+  {
+"paymentMode": "AXIS OTC CHEQUE",
+"paymentDate": "2017-07-19",
+"amount": "99210",
+"status": "Applied to Policy"
+},
+  {
+"paymentMode": "DIRECT DEBIT UB REFERENCE NO.",
+"paymentDate": "2018-07-12",
+"amount": "87913.58",
+"status": "Bounce"
+},
+  {
+"paymentMode": "DIRECT DEBIT UB REFERENCE NO.",
+"paymentDate": "2018-08-14",
+"amount": "99209.94",
+"status": "Bounce"
+},
+  {
+"paymentMode": "DIRECT DEBIT UB REFERENCE NO.",
+"paymentDate": "2016-07-13",
+"amount": "98829.38",
+"status": "Bounce"
+},
+  {
+"paymentMode": "DIRECT DEBIT UB REFERENCE NO.",
+"paymentDate": "2016-07-27",
+"amount": "98829.38",
+"status": "Bounce"
+},
+  {
+"paymentMode": "DIRECT DEBIT UB REFERENCE NO.",
+"paymentDate": "2017-07-13",
+"amount": "99209.97",
+"status": "Bounce"
+}
+],
+"reqtDtls": [
+  {
+"ReqIDcode": "CWA",
+"ReqCrtDt": "2013-08-08 00:00:00",
+"ReqSeqNum": "001",
+"ReqCrtUsr": "AGENCY6",
+"ReqStatus": "RAC",
+"ReqTypCd": "I"
+},
+  {
+"ReqIDcode": "CCWN",
+"ReqCrtDt": "2013-08-09 00:00:00",
+"ReqSeqNum": "001",
+"ReqCrtUsr": "INPS8013",
+"ReqStatus": "RAC",
+"ReqTypCd": "I"
+},
+  {
+"ReqIDcode": "CBS",
+"ReqCrtDt": "2013-08-09 00:00:00",
+"ReqSeqNum": "001",
+"ReqCrtUsr": "INPS8013",
+"ReqStatus": "RAC",
+"ReqTypCd": "I"
+},
+  {
+"ReqIDcode": "DDMA",
+"ReqCrtDt": "2013-08-09 00:00:00",
+"ReqSeqNum": "001",
+"ReqCrtUsr": "INPS8013",
+"ReqStatus": "RAC",
+"ReqTypCd": "I"
+},
+  {
+"ReqIDcode": "CCWO",
+"ReqCrtDt": "2013-08-09 00:00:00",
+"ReqSeqNum": "001",
+"ReqCrtUsr": "INPS8013",
+"ReqStatus": "RAC",
+"ReqTypCd": "I"
+},
+  {
+"ReqIDcode": "DD2",
+"ReqCrtDt": "2013-08-09 00:00:00",
+"ReqSeqNum": "001",
+"ReqCrtUsr": "INPS8013",
+"ReqStatus": "RAC",
+"ReqTypCd": "I"
+}
+],
+"insrdCod": [
+  {
+"ClientInsCd": "P"
+},
+  {
+"ClientInsCd": "O"
+}
+],
+"lifeInsuredDetails": [
+  {
+"insrdCliId": "5002065948",
+"insuredCliCvg": "5002065948",
+"uwUserId": "5002065948"
+}
+],
+}
+],
+}
+}
